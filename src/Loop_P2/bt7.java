@@ -1,6 +1,8 @@
-package Phien1;
+package Loop_P2;
+
 import java.util.Scanner;
-public class bt4 {
+
+public class bt7 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int x = input.nextInt();
@@ -14,5 +16,4 @@ public class bt4 {
 		System.out.println(sum);
 		
 	}
-	
 }

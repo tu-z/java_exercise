@@ -1,8 +1,10 @@
-package Phien1;
-
-public class bt7 {
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
+package Loop_P2;
+import java.util.*;
+public class bt3 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int n = input.nextInt(); 
+        for (int i = 0; i < n; i++) {
             System.out.print(fibonacci(i) + " ");
         }
     }

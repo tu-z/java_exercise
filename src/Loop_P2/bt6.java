@@ -1,4 +1,4 @@
-package Phien2;
+package Loop_P2;
 
 import java.util.Scanner;
 

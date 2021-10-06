@@ -1,12 +1,10 @@
-package Phien1;
-public class bt1 {
-	public static void main(String[] args) {
-		int i = 0;
-		while(i<10) {
-			System.out.println(i);
-			i++;
-		}
+package Loop_P1;
 
+public class bt5 {
+	public static void main(String[] args) {
+		for(int i = -10; i <= -1; i++) {
+			System.out.println(i);
+		}
+		
 	}
-	
 }

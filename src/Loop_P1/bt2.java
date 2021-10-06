@@ -1,4 +1,4 @@
-package Phien1;
+package Loop_P1;
 
 public class bt2 {
 	public static void main(String[] args) {

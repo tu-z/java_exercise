@@ -1,16 +1,19 @@
-package Phien2;
+package Loop_P2;
 
 import java.util.Scanner;
 
-public class bt4 {
+public class bt5 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int x = input.nextInt();
 		x = (x<0) ? x*(-1) : x;
-		for(int i = 1; i <= x; i++) {
-			if(Pre(i)) {
-				System.out.print(i + " ");				
+		int i=0, k=2;
+		while(x >i) {
+			if(Pre(k)) {
+				System.out.print(k+" ");
+				i++;
 			}
+			k++;
 		}
 		
 	}

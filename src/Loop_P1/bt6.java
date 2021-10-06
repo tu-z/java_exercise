@@ -1,20 +1,19 @@
-package Phien2;
-
+package Loop_P1;
 import java.util.Scanner;
-
-public class bt5 {
+public class bt6 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int x = input.nextInt();
-		x = (x<0) ? x*(-1) : x;
-		int i=0, k=2;
-		while(x >i) {
-			if(Pre(k)) {
-				System.out.print(k+" ");
-				i++;
+		int y = input.nextInt();
+		int Prime = 0;
+		for(int i = x; i <= y; i++) {
+			if(i >= 2) {
+				if(Pre(i)) {
+					Prime++;
+				}
 			}
-			k++;
 		}
+		System.out.println(Prime);
 		
 	}
 	public static boolean Pre(int x) {
@@ -28,4 +27,5 @@ public class bt5 {
 		}
 		return false;
 	}
+	
 }

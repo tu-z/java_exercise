@@ -1,4 +1,4 @@
-package Phien1;
+package Loop_P1;
 import java.util.Scanner;
 public class bt8 {
 	public static void main(String[] args) {
