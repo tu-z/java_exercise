@@ -11,6 +11,5 @@ public class Exercise_5 {
 		number2 = Math.round(number2*1000)/1000.0;
 		String result = (number1 == number2) ? "They are equal" : "They are different";
 	    System.out.println(result);
-		
 	}
 }
