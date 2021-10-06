@@ -7,7 +7,7 @@ public class First_degree_equation {
 		 System.out.println("nhap a");
 		 double a = input.nextDouble();
 		 System.out.println("nhap b");
-		 double b = input.nextDouble();
+		 double b = input.nextDouble();	
 		 System.out.println(a+"x" + " + "+b+" = 0 => x = " +(-b/a) );
 	 }
 }
