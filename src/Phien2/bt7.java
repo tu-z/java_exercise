@@ -1,15 +1,19 @@
 package Phien2;
+
 import java.util.Scanner;
-public class bt2 {
+
+public class bt7 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int x = input.nextInt();
 		x = (x<0) ? x*(-1) : x;
-		int factorial = 1;
-		for(int i = 1; i <= x; i++) {
-			factorial*=i;
-		}
-		System.out.println(factorial);
+		int sum = 0;
+		do {
+			int tmp = x % 10;
+			sum += tmp;
+			x /= 10;
+		} while(x>0);
+		System.out.println(sum);
 		
 	}
 }
