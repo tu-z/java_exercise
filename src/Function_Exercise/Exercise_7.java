@@ -1,7 +1,7 @@
 package Function_Exercise;
 import java.util.Scanner;
 
-public class Exercise_6 {
+public class Exercise_7 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -23,6 +23,27 @@ public class Exercise_6 {
 		}
 		else if(n==1) {
 			firstDegreeEquation(a,b);
+		}
+		System.out.println("\n again (1 or 0)");
+		int again = input.nextInt();
+		if(again == 1) {
+			System.out.print("enter your option (1 or 2):");
+			do {
+				System.out.print("enter a (a <> 0) : ");
+				a = input.nextDouble();
+			}while(a == 0);
+			
+			System.out.print("enter b: ");
+			b = input.nextDouble();
+			
+			if(n==2) {
+				System.out.print("enter c: ");
+				c = input.nextInt();
+				SecondDegreeEquation(a, b, c);
+			}
+			else if(n==1) {
+				firstDegreeEquation(a,b);
+			}
 		}
 		
 		

@@ -15,7 +15,7 @@ public class Exercise_3 {
 	}
 	
 	public static void output(String s) {
-		System.out.print(s);
+		System.out.println(s);
 	}
 	public static void loop(int n , String s){
 		for(int i = 0; i < n; i++) {
