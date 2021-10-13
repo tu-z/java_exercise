@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Exercise_5 {
 	
-	static void main(String[] args) {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println(" ax2 + bc + c = 0");
 		double a;

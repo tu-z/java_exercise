@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Exercise_3 {
 	
-	static void main(String[] args) {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int n;
 		do {
@@ -14,10 +14,10 @@ public class Exercise_3 {
 		loop(n , s);
 	}
 	
-	static void output(String s) {
+	public static void output(String s) {
 		System.out.print(s);
 	}
-	static void loop(int n , String s){
+	public static void loop(int n , String s){
 		for(int i = 0; i < n; i++) {
 			output(s);
 		}

@@ -13,7 +13,7 @@ public class bt3 {
 			sum+=i;
 		}
 		System.out.println(sum);
-		
+	
 	}
 	
 }

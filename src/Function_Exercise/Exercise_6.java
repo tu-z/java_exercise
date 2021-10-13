@@ -3,15 +3,15 @@ import java.util.Scanner;
 
 public class Exercise_6 {
 	
-	static void main(String[] args) {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int n;
 		do {
 			System.out.print("enter your option (1 or 2):");
 			n = input.nextInt();
-		}while(n != 1 || n!= 2);
+		}while(n < 1 && n > 2 );
 		int a = 0,b = 0,c = 0;
-		if(n==1) {
+		if(n == 1) {
 			input1(a, b);
 			firstDegreeEquation(a, b);
 		}
@@ -23,11 +23,11 @@ public class Exercise_6 {
 		
 	}
 	
-	static void output(String s) {
+	public static void output(String s) {
 		System.out.print(s);
 	}
 	
-	static void input1(int a, int b) {
+	public static void input1(int a, int b) {
 		Scanner input = new Scanner(System.in);
 		do {
 			System.out.print("enter a (a <> 0) : ");
@@ -37,7 +37,7 @@ public class Exercise_6 {
 		b =(int) input.nextDouble();
 	}
 	
-	static void input2(int a, int b, int c) {
+	public static void input2(int a, int b, int c) {
 		Scanner input = new Scanner(System.in);
 		do {
 			System.out.print("enter a (a <> 0) : ");
@@ -49,7 +49,7 @@ public class Exercise_6 {
 		c =(int) input.nextDouble();
 	}
 	
-	static void firstDegreeEquation(int a, int b) {
+	public static void firstDegreeEquation(int a, int b) {
 		System.out.print(-b/a);
 	}
 	public static void SecondDegreeEquation(double a, double b, double c) {

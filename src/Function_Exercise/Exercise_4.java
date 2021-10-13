@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Exercise_4 {
 	
-	static void main(String[] args) {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println(" ax + b = 0");
 		int a;
@@ -16,7 +16,7 @@ public class Exercise_4 {
 		firstDegreeEquation(a , b);
 	}
 	
-	static void firstDegreeEquation(int a, int b) {
+	public static void firstDegreeEquation(int a, int b) {
 		System.out.print(-b/a);
 	}
 }
