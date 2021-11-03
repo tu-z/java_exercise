@@ -6,10 +6,10 @@ public class Read_Write_File {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		try {
-			String s = input.next();
-			FileOutputStream fos = new FileOutputStream("f:/file/mydata.bin");
+			String s = input.nextLine();
+			FileOutputStream fos = new FileOutputStream("f:/file/mydata.txt");
 			DataOutputStream dos = new DataOutputStream(fos);
-			FileInputStream fis = new FileInputStream("f:/file/mydata.bin");
+			FileInputStream fis = new FileInputStream("f:/file/mydata.txt");
 			DataInputStream dis = new DataInputStream(fis);
 			dos.writeChars(s);
 			fos.close();
