@@ -3,35 +3,35 @@ import java.util.*;
 import java.io.Serializable;
 import java.io.*;
 class Car implements Serializable {
-	  String Name;
-	  String Engine;
-	  int Seats;
-	  String Production_date;
+	  String name;
+	  String engine;
+	  int seats;
+	  String production_date;
 //	  Car(){
-//		    this.Name = "error";
-//		    this.Engine = "error";
-//		    this.Seats = 0;
-//		    this.Production_date = "error";
+//		    this.name = "error";
+//		    this.engine = "error";
+//		    this.seats = 0;
+//		    this.production_date = "error";
 //		  }
-	  Car(String _Name, String _Engine ,int _Seats, String _Production_date){
-	    this.Name = _Name;
-	    this.Engine = _Engine;
-	    this.Seats = _Seats;
-	    this.Production_date = _Production_date;
+	  Car(String _name, String _engine ,int _seats, String _production_date){
+	    this.name = _name;
+	    this.engine = _engine;
+	    this.seats = _seats;
+	    this.production_date = _production_date;
 	  }
 	  public void setValue() {
 		  Scanner input = new Scanner(System.in);
 		  System.out.print("name :");
-		  this.Name = input.next();
-		  System.out.print("\nEngine :");
-		  this.Engine= input.next();
-		  System.out.print("\nSeats :");
-		  this.Seats = input.nextInt();
-		  System.out.print("\nProduction_date :");
-		  this.Production_date = input.next();
+		  this.name = input.next();
+		  System.out.print("\nengine :");
+		  this.engine= input.next();
+		  System.out.print("\nseats :");
+		  this.seats = input.nextInt();
+		  System.out.print("\nproduction_date :");
+		  this.production_date = input.next();
 	  }
 	  public String toString() {
-	    return "Name: " + Name + "\nEngine: " + Engine + "\nSeats: " + Seats + "\nProduction_date: " + Production_date ;
+	    return "name: " + name + "\nengine: " + engine + "\nseats: " + seats + "\nproduction_date: " + production_date ;
 	  }
 	}
 public class Read_Write_Class {
